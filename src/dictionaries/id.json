@@ -1,0 +1,619 @@
+{
+  "auth": {
+    "login": {
+      "title": "Selamat Datang Kembali",
+      "description": "Masukkan email Anda untuk masuk ke akun Anda",
+      "button": "Masuk",
+      "noAccount": "Belum punya akun?",
+      "registerLink": "Daftar sekarang",
+      "forgotPassword": "Lupa kata sandi?"
+    },
+    "forgotPassword": {
+      "title": "Lupa Kata Sandi",
+      "description": "Masukkan email Anda untuk menerima kode verifikasi OTP.",
+      "sendOtp": "Kirim OTP",
+      "verify": "Verifikasi",
+      "success": "OTP telah dikirim ke email Anda.",
+      "error": "Gagal mengirim OTP."
+    },
+    "verifyOtp": {
+      "title": "Verifikasi OTP",
+      "description": "Masukkan 6 digit kode yang dikirim ke {email}",
+      "resend": "Kirim ulang kode",
+      "invalid": "OTP tidak valid atau kedaluwarsa"
+    },
+    "resetPassword": {
+      "title": "Kata Sandi Baru",
+      "description": "Atur kata sandi yang kuat untuk akun Anda.",
+      "button": "Atur Ulang Kata Sandi",
+      "success": "Kata sandi berhasil diperbarui!"
+    },
+    "register": {
+      "title": "Buat Akun Baru",
+      "description": "Silakan isi detail Anda untuk memulai",
+      "button": "Daftar",
+      "hasAccount": "Sudah punya akun?",
+      "loginLink": "Masuk di sini"
+    },
+    "fields": {
+      "firstName": "Nama Depan",
+      "lastName": "Nama Belakang",
+      "username": "Nama Pengguna",
+      "email": "Email",
+      "password": "Kata Sandi"
+    },
+    "social": "Atau lanjutkan dengan"
+  },
+  "layout": {
+    "brandMessage": "Manajemen Akses Aman",
+    "heroTitle": "Aman, <br />Fokus, <br />Efisien.",
+    "heroDescription": "Mulai perjalanan kolaborasi grup Anda dengan keamanan yang tak tertandingi.",
+    "terms": "Ketentuan Layanan",
+    "privacy": "Kebijakan Privasi"
+  },
+  "navbar": {
+    "dashboard": "Dasbor",
+    "tasks": "Manajer Tugas",
+    "calendar": "Kalender",
+    "goals": "Target",
+    "habits": "Pelacak Kebiasaan",
+    "notes": "Catatan",
+    "journal": "Jurnal",
+    "finance": "Keuangan",
+    "settings": "Pengaturan",
+    "logout": "Keluar",
+    "login": "Masuk",
+    "register": "Daftar"
+  },
+  "landing": {
+    "badge": "Memperkenalkan AXION v1.0",
+    "heroTitle": "Masa Depan <span className='bg-clip-text text-transparent bg-gradient-to-r from-primary to-blue-400'>Autentikasi Aman</span> Untuk Bisnis Anda.",
+    "heroSubtitle": "Satu platform untuk semua kebutuhan login Anda. Cepat, aman, dan sangat mudah diintegrasikan dengan tumpukan teknologi modern.",
+    "getStarted": "Mulai Gratis Sekarang",
+    "viewDemo": "Lihat Demo",
+    "featuresTitle": "Fitur Unggulan Kami",
+    "featuresSubtitle": "Bangun pengalaman autentikasi yang luar biasa tanpa khawatir tentang infrastruktur keamanan.",
+    "features": [
+      {
+        "title": "Keamanan Maksimal",
+        "desc": "Enkripsi end-to-end dengan standar keamanan industri terbaru."
+      },
+      {
+        "title": "Performa Kilat",
+        "desc": "Kecepatan akses data yang dioptimalkan untuk pengalaman pengguna terbaik."
+      },
+      {
+        "title": "Akses Global",
+        "desc": "Integrasi login sosial populer seperti Google dan GitHub."
+      }
+    ],
+    "ctaTitle": "Siap untuk Memulai?",
+    "ctaSubtitle": "Bergabunglah dengan ribuan pengembang yang telah mempercayakan sistem autentikasi mereka kepada kami.",
+    "ctaFeatures": [
+      "Gratis untuk 1.000 Pengguna",
+      "Dukungan 24/7",
+      "Penyiapan Cepat 5 Menit"
+    ],
+    "ctaButton": "Buat Akun Gratis"
+  },
+  "footer": {
+    "copyright": "© 2026 AXION. Hak cipta dilindungi undang-undang.",
+    "about": "Tentang Kami",
+    "privacy": "Privasi",
+    "terms": "Syarat & Ketentuan"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Selamat datang kembali, {name}. Berikut ringkasan Anda hari ini.",
+    "status": "Semua sistem online",
+    "online": "Online",
+    "offline": "Offline",
+    "tasksPending": "Anda memiliki {count} tugas tertunda hari ini.",
+    "noTasks": "Tidak ada tugas yang tercatat",
+    "addTask": "Tambah tugas pertama Anda",
+    "upcoming": "Mendatang",
+    "schedule": "Ringkasan jadwal",
+    "noEvents": "Tidak ada acara terjadwal untuk 48 jam ke depan.",
+    "calendarBtn": "Buka kalender",
+    "goalProgress": "Kemajuan target",
+    "overallCompletion": "Penyelesaian keseluruhan",
+    "viewMilestones": "Lihat milstone"
+  },
+  "finance": {
+    "title": "Manajemen Keuangan",
+    "subtitle": "PERFORMA FINANSIAL & TARGET MASA DEPAN",
+    "loading": "Sinkronisasi Data Finansial...",
+    "tabs": {
+      "summary": "Ringkasan",
+      "transactions": "Transaksi",
+      "budget": "Anggaran",
+      "savings": "Tabungan",
+      "debts": "Cicilan/Hutang",
+      "investments": "Investasi",
+      "analytics": "Analitik"
+    },
+    "overview": {
+      "income": "Pemasukan",
+      "expense": "Pengeluaran",
+      "savings": "Tabungan",
+      "budget": "Sisa Kantong",
+      "vsLastMonth": "vs bulan lalu",
+      "marketActive": "PASAR AKTIF",
+      "marketClosed": "PASAR TUTUP",
+      "investmentPortfolio": "PORTOFOLIO INVESTASI"
+    },
+    "transactions": {
+      "searchPlaceholder": "Cari transaksi...",
+      "addBtn": "Tambah Transaksi",
+      "empty": "Transaksi tidak ditemukan",
+      "emptySubtitle": "Catat pemasukan atau pengeluaran pertamamu",
+      "addNow": "Tambah Sekarang",
+      "deleteConfirm": "Hapus transaksi ini?",
+      "table": {
+        "txn": "Transaksi",
+        "category": "Kategori",
+        "date": "Tanggal",
+        "amount": "Jumlah"
+      }
+    },
+    "budgetManager": {
+      "title": "Anggaran Bulanan",
+      "subtitle": "Kelola batas pengeluaran per kategori",
+      "add": "Tambah Anggaran",
+      "limit": "Limit",
+      "spent": "Terpakai",
+      "remaining": "Sisa",
+      "over": "Over",
+      "deleteConfirm": "Hapus anggaran {name}?",
+      "empty": "Belum ada anggaran",
+      "emptySubtitle": "Tentukan batas pengeluaran untuk kendali finansial lebih baik",
+      "firstBudget": "Atur Anggaran Pertama"
+    },
+    "savings": {
+      "title": "Target Tabungan",
+      "subtitle": "Rencanakan masa depan, satu langkah setiap hari",
+      "add": "Buat Target",
+      "collect": "Kumpulkan {amount}",
+      "achieved": "Tercapai!",
+      "collected": "Terkumpul",
+      "deposit": "Setor",
+      "history": "Riwayat",
+      "empty": "Mulai Menabung Hari Ini",
+      "emptySubtitle": "Tentukan target finansial impianmu dan capai satu persatu secara konsisten",
+      "firstGoal": "Atur Target Pertama"
+    },
+    "debts": {
+      "totalOutstanding": "Sisa Total Pinjaman",
+      "monthlyObligation": "Kewajiban Bulanan",
+      "add": "Catat Hutang",
+      "active": "Pinjaman Aktif",
+      "paid": "Pinjaman Selesai",
+      "started": "Dimulai {date}",
+      "remaining": "Sisa Hutang",
+      "paidPercent": "{percent}% Lunas",
+      "target": "Target {amount}",
+      "dueIn": "Jatuh tempo dlm {days} hari",
+      "perMonth": "/bln",
+      "pay": "Bayar Cicilan",
+      "empty": "Tidak ada pinjaman aktif. Kerja bagus!",
+      "history": "Riwayat Pinjaman"
+    },
+    "investments": {
+      "title": "Portofolio Investasi",
+      "total": "Total Portofolio",
+      "marketState": "Pasar Aktif",
+      "refresh": "Perbarui Harga",
+      "add": "Tambah Aset",
+      "importStockbit": "Import Stockbit (PDF)",
+      "extracting": "Mengekstraksi PDF...",
+      "saving": "Menyimpan & Mengambil Harga Live...",
+      "analyzing": "Menganalisis...",
+      "analyzeAI": "Analisis AI",
+      "aiInsightTitle": "Insight Investasi AI",
+      "aiDisclaimer": "Analisis ini bukan rekomendasi investasi. Selalu lakukan riset mandiri.",
+      "pnl": "Profit/Loss",
+      "modalAvg": "Modal / Avg",
+      "assetLive": "Aset / LivePrice",
+      "lot": "Lot",
+      "empty": "Mulai Membangun Aset",
+      "emptySubtitle": "Diversifikasikan kekayaanmu dengan instrumen investasi yang tepat",
+      "tip": "Tip: Gunakan tombol 'Import Stockbit' di atas untuk memproses PDF transaksi",
+      "previewTitle": "Preview Import Stockbit",
+      "previewMatch": "Ditemukan {count} posisi open dari histori transaksi",
+      "fifoActive": "Logika FIFO Aktif",
+      "fifoDesc": "Sistem otomatis menghitung posisi yang belum lunas (open) dengan mencocokkan Jual terhadap Beli tertua.",
+      "table": {
+        "symbol": "Saham",
+        "lot": "Lot",
+        "avg": "Avg Price",
+        "total": "Total"
+      },
+      "cancel": "Batal",
+      "confirmImport": "Konfirmasi Import",
+      "importing": "Mengimport...",
+      "deleteConfirm": "Hapus investasi ini?",
+      "importFailed": "Beberapa aset gagal diimport.",
+      "pdfError": "Gagal membaca PDF: {error}. Pastikan ini adalah file 'Transaction History' dari Stockbit."
+    },
+    "charts": {
+      "expenseByCategory": "PENGELUARAN PER KATEGORI",
+      "currentMonth": "Bulan berjalan",
+      "cashFlowTrend": "TREN ARUS KAS",
+      "last6Months": "6 Bulan Terakhir",
+      "averageExpense": "RATA-RATA PENGELUARAN",
+      "peak": "Puncak"
+    },
+    "categories": {
+      "food": "Makanan",
+      "transport": "Transportasi",
+      "shopping": "Belanja",
+      "health": "Kesehatan",
+      "entertainment": "Hiburan",
+      "bills": "Tagihan",
+      "installments": "Cicilan",
+      "others": "Lainnya",
+      "laundry": "Laundry",
+      "salary": "Gaji"
+    },
+    "instruments": {
+      "reksa_dana": "Reksa Dana",
+      "saham": "Saham",
+      "obligasi": "Obligasi",
+      "crypto": "Crypto",
+      "lainnya": "Lainnya"
+    },
+    "modals": {
+      "budget": {
+        "add": "Buat Anggaran",
+        "edit": "Ubah Anggaran",
+        "desc": "Tentukan batas pengeluaran",
+        "name": "Nama Kategori",
+        "namePlaceholder": "Misal: Makan, Transport, Belanja",
+        "limit": "Limit Bulanan (Rp)",
+        "appearance": "Pilih Ikon & Warna"
+      },
+      "debt": {
+        "add": "Catat Hutang",
+        "edit": "Ubah Cicilan",
+        "desc": "Pantau pinjaman dan tagihan Anda",
+        "name": "Nama Pinjaman / Cicilan",
+        "namePlaceholder": "Misal: KPR, Cicilan Laptop, Pinjol",
+        "total": "Total Hutang (Rp)",
+        "monthly": "Setoran Per Bulan (Rp)",
+        "paid": "Sudah Dibayar (Rp)",
+        "startDate": "Tanggal Mulai",
+        "dueDay": "Jatuh Tempo (Tanggal 1-31 tiap bulan)"
+      },
+      "debtPayment": {
+        "title": "Bayar Cicilan",
+        "desc": "Catat pembayaran hutangmu",
+        "select": "Pilih Cicilan",
+        "selectPlaceholder": "Pilih Pinjaman",
+        "amount": "Jumlah Bayar (Rp)",
+        "date": "Tanggal Bayar",
+        "autoTxn": "Catat sebagai Pengeluaran?",
+        "autoTxnDesc": "Jika aktif, sistem akan otomatis membuat transaksi pengeluaran baru.",
+        "confirm": "Konfirmasi Bayar"
+      },
+      "investment": {
+        "add": "Tambah Aset",
+        "edit": "Ubah Aset",
+        "desc": "Pantau performa aset investasimu",
+        "name": "Nama Aset",
+        "namePlaceholder": "misal: BBCA, Bitcoin, atau Reksa Dana Stabil",
+        "symbol": "Simbol / Ticker",
+        "symbolPlaceholder": "BBCA / BTC",
+        "instrument": "Instrumen",
+        "capital": "Modal Awal (Rp)",
+        "current": "Nilai Sekarang",
+        "lots": "Lot / Unit",
+        "date": "Tanggal Beli"
+      },
+      "savingGoal": {
+        "add": "Buat Target",
+        "edit": "Ubah Target",
+        "desc": "Rencanakan target finansial Anda",
+        "name": "Nama Target",
+        "target": "Jumlah Target",
+        "deadline": "Tanggal Target"
+      },
+      "savingDeposit": {
+        "title": "Tambah Setoran",
+        "desc": "Tambah saldo ke target impianmu",
+        "amount": "Jumlah Setoran (Rp)",
+        "date": "Tanggal Setoran"
+      },
+      "transaction": {
+        "add": "Tambah Transaksi",
+        "edit": "Edit Transaksi",
+        "desc": "Pantau pemasukan dan pengeluaran Anda",
+        "name": "Nama Transaksi",
+        "amount": "Jumlah",
+        "type": "Tipe Transaksi",
+        "category": "Kategori",
+        "date": "Tanggal",
+        "note": "Catatan",
+        "selectBudget": "Pilih Anggaran",
+        "noBudgets": "Buat anggaran dulu",
+        "addDetail": "Tambahkan detail...",
+        "save": "Simpan Transaksi"
+      },
+      "task": {
+        "add": "Buat Tugas Baru",
+        "edit": "Ubah Tugas",
+        "desc": "Tentukan objektif Anda selanjutnya.",
+        "title": "Judul Tugas",
+        "titlePlaceholder": "Apa yang perlu dikerjakan?",
+        "priority": "Prioritas",
+        "deadline": "Tenggat Waktu",
+        "category": "Kategori",
+        "categoryPlaceholder": "misal: Pekerjaan, Pribadi, Proyek Sampingan",
+        "description": "Deskripsi (opsional)",
+        "descriptionPlaceholder": "Tambah detail mengenai tugas ini...",
+        "createBtn": "Buat Tugas"
+      },
+      "common": {
+        "save": "Simpan",
+        "saving": "Menyimpan...",
+        "cancel": "Batal"
+      }
+    }
+  },
+  "settings": {
+    "title": "Pengaturan",
+    "subtitle": "AI ASSISTANT & NOTIFIKASI TELEGRAM",
+    "tabs": {
+      "ai": "ASISTEN AI",
+      "telegram": "BOT TELEGRAM",
+      "language": "BAHASA",
+      "connections": "KONEKSI",
+      "profile": "EDIT PROFIL"
+    },
+    "profile": {
+      "title": "IDENTITAS PROFIL PENGGUNA",
+      "description": "Perbarui identitas publik dan avatar digital Anda.",
+      "name": "Nama Lengkap",
+      "username": "Username",
+      "avatar": "Avatar Digital",
+      "updateBtn": "Perbarui Profil",
+      "success": "Profil berhasil diperbarui!",
+      "error": "Gagal memperbarui profil",
+      "usernameTaken": "Username sudah digunakan"
+    },
+    "connections": {
+      "title": "KELOLA KONEKSI & AKUN",
+      "description": "Tautkan akun sosial Anda dan kelola integrasi pihak ketiga untuk sinkronisasi data.",
+      "accounts": "AKUN TERTAUT",
+      "thirdParty": "INTEGRASI PIHAK KETIGA",
+      "googleCalendar": "Google Calendar",
+      "link": "Tautkan",
+      "unlink": "Putuskan",
+      "linked": "Tertaut",
+      "notLinked": "Belum Tertaut"
+    },
+    "language": {
+      "title": "PENGATURAN BAHASA",
+      "description": "Pilih bahasa yang Anda inginkan untuk antarmuka dasbor.",
+      "en": "English",
+      "id": "Bahasa Indonesia"
+    },
+    "ai": {
+      "title": "KONFIGURASI AI ASSISTANT",
+      "description": "Pilih penyedia dan hubungkan kunci API Anda untuk mengaktifkan asisten pintar.",
+      "provider": "PENYEDIA AI",
+      "model": "MODEL",
+      "apiKey": "KUNCI API",
+      "customEndpoint": "ENDPOINT KUSTOM",
+      "testButton": "Tes Koneksi AI",
+      "testing": "Menguji koneksi...",
+      "testSuccess": "Koneksi AI Berhasil!",
+      "testError": "Koneksi AI Gagal"
+    },
+    "telegram": {
+      "title": "KONFIGURASI BOT TELEGRAM",
+      "description": "Konfigurasikan bot Telegram Anda untuk menerima notifikasi real-time.",
+      "botToken": "TOKEN BOT",
+      "chatId": "ID CHAT",
+      "testButton": "Tes Kirim Pesan",
+      "testing": "Mengirim pesan tes...",
+      "testSuccess": "Pesan tes terkirim ke Telegram!",
+      "testError": "Gagal mengirim pesan Telegram",
+      "guide": {
+        "title": "Langkah Panduan:",
+        "step1": "Chat @BotFather di Telegram, buat bot baru dan ambil Token-nya.",
+        "step2": "Mulai chat dengan bot baru Anda tersebut.",
+        "step3": "Gunakan @userinfobot untuk mendapatkan Chat ID Anda (forward pesan ke sana)."
+      },
+      "notifications": {
+        "title": "PENGATURAN NOTIFIKASI",
+        "desc": "Pilih peringatan apa saja yang ingin dikirimkan bot Anda.",
+        "morning": "Ringkasan Pagi (07:00)",
+        "morningDesc": "Dapatkan list task dan cicilan jatuh tempo.",
+        "stockRise": "Peringatan Perubahan Harga Saham",
+        "stockRiseDesc": "Kirim pesan jika harga saham naik/turun melewati batas.",
+        "debt": "Pengingat Cicilan",
+        "debtDesc": "H-N hari sebelum tanggal jatuh tempo.",
+        "budget": "Threshold Budget",
+        "budgetDesc": "Batas penggunaan budget per kategori.",
+        "aiChat": "Chat Dua Arah AI",
+        "aiChatDesc": "Kirim pesan apa saja ke bot Anda untuk dijawab AI."
+      }
+    },
+    "saveButton": "Simpan Pengaturan",
+    "saving": "Menyimpan...",
+    "saveSuccess": "Pengaturan berhasil disimpan",
+    "saveError": "Gagal menyimpan pengaturan",
+    "days": "Hari"
+  },
+  "tasks": {
+    "title": "Manajer Tugas",
+    "searchPlaceholder": "Cari tugas...",
+    "filterAll": "Semua tugas",
+    "addBtn": "Tambah Tugas",
+    "columns": {
+      "todo": "Antrean",
+      "in_progress": "Dikerjakan",
+      "done": "Selesai",
+      "cancelled": "Dibatalkan"
+    },
+    "status": {
+      "todo": "Antrean",
+      "in_progress": "Dikerjakan",
+      "done": "Selesai",
+      "cancelled": "Dibatalkan"
+    },
+    "priority": {
+      "high": "Tinggi",
+      "medium": "Sedang",
+      "low": "Rendah"
+    },
+    "deadline": {
+      "today": "Hari ini",
+      "daysLeft": "Sisa {days} hari",
+      "overdue": "Telat {days} hari",
+      "completedAt": "Selesai {date}",
+      "noDeadline": "Tanpa deadline"
+    },
+    "archive": {
+      "title": "Arsip",
+      "empty": "Belum ada tugas diarsipkan",
+      "restore": "Pulihkan",
+      "deletePermanent": "Hapus Permanen",
+      "clearAll": "Kosongkan Arsip",
+      "reason": {
+        "completed_expired": "Selesai & Kedaluwarsa",
+        "cancelled_expired": "Dibatalkan (7 hari lalu)",
+        "manual": "Manual"
+      }
+    },
+    "empty": "Tidak ada tugas di kolom ini",
+    "deleteConfirm": "Hapus permanen tugas ini?",
+    "subtasks": "{completed} / {total} sub-task"
+  },
+  "habits": {
+    "title": "Pelacakan Kebiasaan",
+    "desc": "Pantau konsistensi harian Anda.",
+    "addBtn": "Tambah Kebiasaan",
+    "activeStreak": "Streak Aktif",
+    "daysCompleted": "Hari Selesai",
+    "currentStreak": "Streak Saat Ini",
+    "todayProgress": "Progres Hari Ini",
+    "habitsCompleted": "kebiasaan selesai",
+    "empty": "Belum ada kebiasaan",
+    "emptyDesc": "Buat kebiasaan pertama Anda untuk mulai melacak konsistensi.",
+    "createHabit": "Buat Kebiasaan",
+    "editHabit": "Edit Kebiasaan",
+    "modalDesc": "Bangun konsistensi, satu hari pada satu waktu",
+    "habitTitle": "Nama Kebiasaan",
+    "titlePlaceholder": "misal: Solat, Ngaji, Olahraga",
+    "habitDesc": "Deskripsi",
+    "descPlaceholder": "misal: Solat tepat waktu",
+    "schedule": "Jadwal",
+    "everyDay": "Setiap Hari",
+    "specificDays": "Hari Tertentu",
+    "subItems": "Sub-Item",
+    "addItemPlaceholder": "misal: Subuh, Push-up set 1...",
+    "offDay": "Hari libur",
+    "completed": "Selesai!",
+    "tapToCheck": "Ketuk untuk menandai selesai",
+    "edit": "Ubah",
+    "delete": "Hapus",
+    "deleteTitle": "Hapus Kebiasaan",
+    "deleteMessage": "Ini akan menghapus kebiasaan ini dan semua lognya secara permanen. Tindakan ini tidak bisa dibatalkan.",
+    "days": {
+      "mon": "Sen",
+      "tue": "Sel",
+      "wed": "Rab",
+      "thu": "Kam",
+      "fri": "Jum",
+      "sat": "Sab",
+      "sun": "Min"
+    }
+  },
+  "goals": {
+    "title": "Roadmap Aktif",
+    "desc": "Lacak objektif jangka panjang Anda.",
+    "newBtn": "Tujuan Baru",
+    "progress": "Progres",
+    "milestones": "Milestones",
+    "addMilestone": "Tambah Milestone",
+    "empty": "Belum ada tujuan",
+    "emptyDesc": "Buat tujuan jangka panjang pertama Anda untuk mulai melacak progres.",
+    "noFiltered": "Tidak ada tujuan di filter ini",
+    "createFirst": "Buat Tujuan",
+    "createGoal": "Buat Tujuan",
+    "editGoal": "Edit Tujuan",
+    "modalDesc": "Tentukan objektif jangka panjang Anda",
+    "goalTitle": "Judul Tujuan",
+    "titlePlaceholder": "misal: Belajar TypeScript, Lari maraton",
+    "goalDesc": "Deskripsi",
+    "descPlaceholder": "Jelaskan apa yang ingin Anda capai...",
+    "targetDate": "Tanggal Target",
+    "milestonePlaceholder": "misal: Selesaikan bab 1...",
+    "edit": "Ubah",
+    "delete": "Hapus",
+    "deleteTitle": "Hapus Tujuan",
+    "deleteMessage": "Ini akan menghapus tujuan ini dan semua milestone-nya secara permanen. Tindakan ini tidak bisa dibatalkan.",
+    "filterAll": "Semua",
+    "needsSetup": "Butuh Persiapan",
+    "noMilestones": "Belum Ada Milestone",
+    "overdue": "terlambat",
+    "today": "Hari ini",
+    "left": "lagi",
+    "status": {
+      "in_progress": "Sedang Dikerjakan",
+      "completed": "Selesai",
+      "paused": "Ditunda",
+      "overdue": "Terlambat",
+      "no_milestones": "Belum Ada Milestone"
+    }
+  },
+  "journal": {
+    "title": "Jurnal Harian",
+    "desc": "Refleksikan hari Anda dan pantau kesehatan emosional Anda.",
+    "question": "Bagaimana perasaan Anda hari ini?",
+    "reflection": "Refleksi Harian",
+    "placeholder": "Tuliskan pikiran Anda...",
+    "saveBtn": "Simpan Entri",
+    "history": "Riwayat",
+    "logs": "Log Jurnal",
+    "historyDesc": "Anda telah mencatat {count} entri dalam 7 hari terakhir.",
+    "viewArchive": "Lihat Arsip",
+    "empty": "Tidak ada log terbaru",
+    "moods": {
+      "excellent": "Sangat Baik",
+      "great": "Luar Biasa",
+      "good": "Baik",
+      "neutral": "Netral",
+      "low": "Kurang Baik"
+    }
+  },
+  "notes": {
+    "title": "Catatan Pribadi",
+    "desc": "Kelola basis pengetahuan Anda.",
+    "search": "Cari catatan...",
+    "addBtn": "Tambah Catatan",
+    "empty": "Tidak ada catatan ditemukan",
+    "emptyDesc": "Mulai catat pikiran dan ide Anda hari ini.",
+    "createBtn": "Buat Catatan"
+  },
+  "calendar": {
+    "addBtn": "Tambah Acara",
+    "days": {
+      "sun": "Min",
+      "mon": "Sen",
+      "tue": "Sel",
+      "wed": "Rab",
+      "thu": "Kam",
+      "fri": "Jum",
+      "sat": "Sab"
+    }
+  },
+  "aiChat": {
+    "title": "AI Assistant",
+    "placeholder": "Tanya sesuatu tentang keuangan Anda...",
+    "emptyState": "Halo! Saya asisten keuangan pribadi Anda. Ada yang bisa saya bantu hari ini?",
+    "error": "Maaf, terjadi kesalahan saat terhubung ke AI.",
+    "thinking": "Sedang berpikir..."
+  }
+}

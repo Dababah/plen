@@ -1,0 +1,619 @@
+{
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "description": "Enter your email to sign in to your account",
+      "button": "Login",
+      "noAccount": "Don't have an account?",
+      "registerLink": "Register now",
+      "forgotPassword": "Forgot password?"
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "description": "Enter your email to receive an OTP verification code.",
+      "sendOtp": "Send OTP",
+      "verify": "Verify",
+      "success": "OTP has been sent to your email.",
+      "error": "Failed to send OTP."
+    },
+    "verifyOtp": {
+      "title": "Verify OTP",
+      "description": "Enter the 6-digit code sent to {email}",
+      "resend": "Resend code",
+      "invalid": "Invalid or expired OTP"
+    },
+    "resetPassword": {
+      "title": "New Password",
+      "description": "Set a strong password for your account.",
+      "button": "Reset Password",
+      "success": "Password updated successfully!"
+    },
+    "register": {
+      "title": "Create New Account",
+      "description": "Please fill in your details to get started",
+      "button": "Register",
+      "hasAccount": "Already have an account?",
+      "loginLink": "Login here"
+    },
+    "fields": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "username": "Username",
+      "email": "Email",
+      "password": "Password"
+    },
+    "social": "Or continue with"
+  },
+  "layout": {
+    "brandMessage": "Secure Access Management",
+    "heroTitle": "Secure, <br />Focused, <br />Efficient.",
+    "heroDescription": "Start your group collaboration journey with unparalleled security.",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy"
+  },
+  "navbar": {
+    "dashboard": "Dashboard",
+    "tasks": "Task Manager",
+    "calendar": "Calendar",
+    "goals": "Goals",
+    "habits": "Habit Tracker",
+    "notes": "Notes",
+    "journal": "Journal",
+    "finance": "Finance",
+    "settings": "Settings",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register"
+  },
+  "landing": {
+    "badge": "Introducing AXION v1.0",
+    "heroTitle": "The Future of <span className='bg-clip-text text-transparent bg-gradient-to-r from-primary to-blue-400'>Secure Authentication</span> For Your Business.",
+    "heroSubtitle": "One platform for all your login needs. Fast, secure, and incredibly easy to integrate with modern tech stacks.",
+    "getStarted": "Start Free Now",
+    "viewDemo": "View Demo",
+    "featuresTitle": "Our Top Features",
+    "featuresSubtitle": "Build amazing authentication experiences without worrying about security infrastructure.",
+    "features": [
+      {
+        "title": "Maximum Security",
+        "desc": "End-to-end encryption with the latest industry security standards."
+      },
+      {
+        "title": "Lightning Performance",
+        "desc": "Optimized data access speed for the best user experience."
+      },
+      {
+        "title": "Global Access",
+        "desc": "Popular social login integration like Google and GitHub."
+      }
+    ],
+    "ctaTitle": "Ready to Get Started?",
+    "ctaSubtitle": "Join thousands of developers who have entrusted their authentication systems to us.",
+    "ctaFeatures": [
+      "Free for 1,000 Users",
+      "24/7 Support",
+      "Quick 5-Minute Setup"
+    ],
+    "ctaButton": "Create Free Account"
+  },
+  "footer": {
+    "copyright": "© 2026 AXION. All rights reserved.",
+    "about": "About Us",
+    "privacy": "Privacy",
+    "terms": "Terms & Conditions"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back, {name}. Here is your overview for today.",
+    "status": "All systems online",
+    "online": "Online",
+    "offline": "Offline",
+    "tasksPending": "You have {count} tasks pending for today.",
+    "noTasks": "No tasks recorded",
+    "addTask": "Add your first task",
+    "upcoming": "Upcoming",
+    "schedule": "Schedule overview",
+    "noEvents": "No events scheduled for the next 48 hours.",
+    "calendarBtn": "Open calendar",
+    "goalProgress": "Goal progress",
+    "overallCompletion": "Overall completion",
+    "viewMilestones": "View milestones"
+  },
+  "finance": {
+    "title": "Finance Management",
+    "subtitle": "FINANCIAL PERFORMANCE & FUTURE TARGETS",
+    "loading": "Syncing Financial Data...",
+    "tabs": {
+      "summary": "Summary",
+      "transactions": "Transactions",
+      "budget": "Budget",
+      "savings": "Savings",
+      "debts": "Debts",
+      "investments": "Investments",
+      "analytics": "Analytics"
+    },
+    "overview": {
+      "income": "Income",
+      "expense": "Expense",
+      "savings": "Savings",
+      "budget": "Pocket Left",
+      "vsLastMonth": "vs last month",
+      "marketActive": "MARKET ACTIVE",
+      "marketClosed": "MARKET CLOSED",
+      "investmentPortfolio": "INVESTMENT PORTFOLIO"
+    },
+    "transactions": {
+      "searchPlaceholder": "Search transactions...",
+      "addBtn": "Add Transaction",
+      "empty": "No transactions found",
+      "emptySubtitle": "Record your first income or expense",
+      "addNow": "Add Now",
+      "deleteConfirm": "Delete this transaction?",
+      "table": {
+        "txn": "Transaction",
+        "category": "Category",
+        "date": "Date",
+        "amount": "Amount"
+      }
+    },
+    "budgetManager": {
+      "title": "Monthly Budget",
+      "subtitle": "Manage spending limits per category",
+      "add": "Add Budget",
+      "limit": "Limit",
+      "spent": "Spent",
+      "remaining": "Remaining",
+      "over": "Over",
+      "deleteConfirm": "Delete budget {name}?",
+      "empty": "No budget set yet",
+      "emptySubtitle": "Set spending limits for better financial control",
+      "firstBudget": "Set First Budget"
+    },
+    "savings": {
+      "title": "Savings Goals",
+      "subtitle": "Plan for the future, one step at a time",
+      "add": "Create Goal",
+      "collect": "Collect {amount}",
+      "achieved": "Achieved!",
+      "collected": "Collected",
+      "deposit": "Deposit",
+      "history": "History",
+      "empty": "Start Saving Today",
+      "emptySubtitle": "Set your dream financial targets and achieve them one by one consistently",
+      "firstGoal": "Set First Goal"
+    },
+    "debts": {
+      "totalOutstanding": "Total Outstanding Loan",
+      "monthlyObligation": "Monthly Obligation",
+      "add": "Record Debt",
+      "active": "Active Loans",
+      "paid": "Paid Loans",
+      "started": "Started {date}",
+      "remaining": "Remaining Debt",
+      "paidPercent": "{percent}% Paid",
+      "target": "Target {amount}",
+      "dueIn": "Due in {days} days",
+      "perMonth": "/mo",
+      "pay": "Pay Installment",
+      "empty": "No active loans. Good job!",
+      "history": "Loan History"
+    },
+    "investments": {
+      "title": "Investment Portfolio",
+      "total": "Total Portfolio",
+      "marketState": "Market Live",
+      "refresh": "Refresh Prices",
+      "add": "Add Asset",
+      "importStockbit": "Import Stockbit (PDF)",
+      "extracting": "Extracting PDF...",
+      "saving": "Saving & Fetching Live Prices...",
+      "analyzing": "Analyzing...",
+      "analyzeAI": "AI Analysis",
+      "aiInsightTitle": "AI Investment Insight",
+      "aiDisclaimer": "This analysis is not investment advice. Always do your own research.",
+      "pnl": "Profit/Loss",
+      "modalAvg": "Capital / Avg",
+      "assetLive": "Asset / LivePrice",
+      "lot": "Lot",
+      "empty": "Start Building Assets",
+      "emptySubtitle": "Diversify your wealth with the right investment instruments",
+      "tip": "Tip: Use 'Import Stockbit' button above to process transaction PDFs",
+      "previewTitle": "Stockbit Import Preview",
+      "previewMatch": "Found {count} open positions from transaction history",
+      "fifoActive": "FIFO Logic Active",
+      "fifoDesc": "System automatically calculates open positions by matching oldest Buys against Sells.",
+      "table": {
+        "symbol": "Symbol",
+        "lot": "Lot",
+        "avg": "Avg Price",
+        "total": "Total"
+      },
+      "cancel": "Cancel",
+      "confirmImport": "Confirm Import",
+      "importing": "Importing...",
+      "deleteConfirm": "Delete this investment?",
+      "importFailed": "Some assets failed to import.",
+      "pdfError": "Failed to read PDF: {error}. Ensure this is a Stockbit 'Transaction History' file."
+    },
+    "charts": {
+      "expenseByCategory": "EXPENSE BY CATEGORY",
+      "currentMonth": "Current month",
+      "cashFlowTrend": "CASH FLOW TREND",
+      "last6Months": "Last 6 Months",
+      "averageExpense": "AVERAGE EXPENSE",
+      "peak": "Peak"
+    },
+    "categories": {
+      "food": "Food",
+      "transport": "Transport",
+      "shopping": "Shopping",
+      "health": "Health",
+      "entertainment": "Entertainment",
+      "bills": "Bills",
+      "installments": "Installments",
+      "others": "Others",
+      "laundry": "Laundry",
+      "salary": "Salary"
+    },
+    "instruments": {
+      "reksa_dana": "Mutual Funds",
+      "saham": "Stocks",
+      "obligasi": "Bonds",
+      "crypto": "Crypto",
+      "lainnya": "Others"
+    },
+    "modals": {
+      "budget": {
+        "add": "Create Budget",
+        "edit": "Edit Budget",
+        "desc": "Set spending limits",
+        "name": "Category Name",
+        "namePlaceholder": "e.g. Food, Transport, Shopping",
+        "limit": "Monthly Limit (Rp)",
+        "appearance": "Choose Icon & Color"
+      },
+      "debt": {
+        "add": "Record Debt",
+        "edit": "Edit installment",
+        "desc": "Track your loans and bills",
+        "name": "Loan / Installment Name",
+        "namePlaceholder": "e.g. Mortgage, Laptop, Loan",
+        "total": "Total Debt (Rp)",
+        "monthly": "Monthly Payment (Rp)",
+        "paid": "Already Paid (Rp)",
+        "startDate": "Start Date",
+        "dueDay": "Due Date (1-31 each month)"
+      },
+      "debtPayment": {
+        "title": "Pay Installment",
+        "desc": "Record debt repayment",
+        "select": "Choose Installment",
+        "selectPlaceholder": "Choose Loan",
+        "amount": "Payment Amount (Rp)",
+        "date": "Payment Date",
+        "autoTxn": "Record as Expense?",
+        "autoTxnDesc": "If active, the system will automatically create a new expense transaction.",
+        "confirm": "Confirm Payment"
+      },
+      "investment": {
+        "add": "Add Asset",
+        "edit": "Edit Asset",
+        "desc": "Track your investment portfolio performance",
+        "name": "Asset Name",
+        "namePlaceholder": "e.g. BBCA, Bitcoin, or Stability Fund",
+        "symbol": "Symbol / Ticker",
+        "symbolPlaceholder": "BBCA / BTC",
+        "instrument": "Instrument",
+        "capital": "Initial Capital (Rp)",
+        "current": "Current Value",
+        "lots": "Lots / Units",
+        "date": "Purchase Date"
+      },
+      "savingGoal": {
+        "add": "Create Goal",
+        "edit": "Edit Goal",
+        "desc": "Plan your financial targets",
+        "name": "Goal Name",
+        "target": "Target Amount",
+        "deadline": "Target Date"
+      },
+      "savingDeposit": {
+        "title": "Add Deposit",
+        "desc": "Add balance to your dream target",
+        "amount": "Deposit Amount (Rp)",
+        "date": "Deposit Date"
+      },
+      "transaction": {
+        "add": "Add Transaction",
+        "edit": "Edit Transaction",
+        "desc": "Track your income and expenses",
+        "name": "Transaction Name",
+        "amount": "Amount",
+        "type": "Transaction Type",
+        "category": "Category",
+        "date": "Date",
+        "note": "Note",
+        "selectBudget": "Select Budget",
+        "noBudgets": "Create a budget first",
+        "addDetail": "Add details...",
+        "save": "Save Transaction"
+      },
+      "task": {
+        "add": "Create New Task",
+        "edit": "Edit Task",
+        "desc": "Define your next objective.",
+        "title": "Task Title",
+        "titlePlaceholder": "What needs to be done?",
+        "priority": "Priority",
+        "deadline": "Deadline",
+        "category": "Category",
+        "categoryPlaceholder": "e.g. Work, Personal, Side project",
+        "description": "Description (optional)",
+        "descriptionPlaceholder": "Add more details about this task...",
+        "createBtn": "Create Task"
+      },
+      "common": {
+        "save": "Save",
+        "saving": "Saving...",
+        "cancel": "Cancel"
+      }
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "AI ASSISTANT & TELEGRAM NOTIFICATIONS",
+    "tabs": {
+      "ai": "AI ASSISTANT",
+      "telegram": "TELEGRAM BOT",
+      "language": "LANGUAGE",
+      "connections": "CONNECTIONS",
+      "profile": "EDIT PROFILE"
+    },
+    "profile": {
+      "title": "USER PROFILE IDENTITY",
+      "description": "Update your public identity and digital avatar.",
+      "name": "Full Name",
+      "username": "Username",
+      "avatar": "Digital Avatar",
+      "updateBtn": "Update Profile",
+      "success": "Profile updated successfully!",
+      "error": "Failed to update profile",
+      "usernameTaken": "Username is already taken"
+    },
+    "connections": {
+      "title": "MANAGE CONNECTIONS & ACCOUNTS",
+      "description": "Link your social accounts and manage third-party integrations for data synchronization.",
+      "accounts": "LINKED ACCOUNTS",
+      "thirdParty": "THIRD-PARTY INTEGRATIONS",
+      "googleCalendar": "Google Calendar",
+      "link": "Link",
+      "unlink": "Unlink",
+      "linked": "Linked",
+      "notLinked": "Not Linked"
+    },
+    "language": {
+      "title": "LANGUAGE SETTINGS",
+      "description": "Choose your preferred language for the dashboard interface.",
+      "en": "English",
+      "id": "Indonesian"
+    },
+    "ai": {
+      "title": "AI ASSISTANT CONFIGURATION",
+      "description": "Choose a provider and connect your API key to enable the smart assistant.",
+      "provider": "AI PROVIDER",
+      "model": "MODEL",
+      "apiKey": "API KEY",
+      "customEndpoint": "CUSTOM ENDPOINT",
+      "testButton": "Test AI Connection",
+      "testing": "Testing connection...",
+      "testSuccess": "AI Connection Successful!",
+      "testError": "AI Connection Failed"
+    },
+    "telegram": {
+      "title": "TELEGRAM BOT CONFIGURATION",
+      "description": "Configure your Telegram bot to receive real-time notifications.",
+      "botToken": "BOT TOKEN",
+      "chatId": "CHAT ID",
+      "testButton": "Test Send Message",
+      "testing": "Sending test message...",
+      "testSuccess": "Test message sent to Telegram!",
+      "testError": "Failed to send Telegram message",
+      "guide": {
+        "title": "Guide Steps:",
+        "step1": "Chat @BotFather on Telegram, create a new bot and get its Token.",
+        "step2": "Start a chat with your new bot.",
+        "step3": "Use @userinfobot to get your Chat ID (forward a message there)."
+      },
+      "notifications": {
+        "title": "NOTIFICATION SETTINGS",
+        "desc": "Choose which alerts your bot should send.",
+        "morning": "Morning Summary (07:00)",
+        "morningDesc": "Get a list of tasks and upcoming installments.",
+        "stockRise": "Stock Price Change Alert",
+        "stockRiseDesc": "Send message if stock price rises/falls beyond thresholds.",
+        "debt": "Debt Reminder",
+        "debtDesc": "H-N days before the due date.",
+        "budget": "Budget Threshold",
+        "budgetDesc": "Budget usage limit per category.",
+        "aiChat": "Two-Way AI Chat",
+        "aiChatDesc": "Send any message to your bot to be answered by AI."
+      }
+    },
+    "saveButton": "Save Settings",
+    "saving": "Saving...",
+    "saveSuccess": "Settings saved successfully",
+    "saveError": "Failed to save settings",
+    "days": "Days"
+  },
+  "tasks": {
+    "title": "Task Manager",
+    "searchPlaceholder": "Search tasks...",
+    "filterAll": "All tasks",
+    "addBtn": "Add Task",
+    "columns": {
+      "todo": "To Do",
+      "in_progress": "In Progress",
+      "done": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "status": {
+      "todo": "To Do",
+      "in_progress": "In Progress",
+      "done": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "priority": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "deadline": {
+      "today": "Today",
+      "daysLeft": "{days} days left",
+      "overdue": "Delayed {days} days",
+      "completedAt": "Completed {date}",
+      "noDeadline": "No deadline"
+    },
+    "archive": {
+      "title": "Archive",
+      "empty": "No archived tasks",
+      "restore": "Restore",
+      "deletePermanent": "Delete permanently",
+      "clearAll": "Clear Archive",
+      "reason": {
+        "completed_expired": "Completed & Expired",
+        "cancelled_expired": "Cancelled (7 days ago)",
+        "manual": "Manual"
+      }
+    },
+    "empty": "No tasks found in this column",
+    "deleteConfirm": "Are you sure you want to delete this task?",
+    "subtasks": "{completed} / {total} subtasks"
+  },
+  "habits": {
+    "title": "Habit Tracking",
+    "desc": "Monitor your daily consistency.",
+    "addBtn": "Add Habit",
+    "activeStreak": "Active Streak",
+    "daysCompleted": "Days Completed",
+    "currentStreak": "Current Streak",
+    "todayProgress": "Today's Progress",
+    "habitsCompleted": "habits completed",
+    "empty": "No habits defined",
+    "emptyDesc": "Create your first habit to start tracking consistency.",
+    "createHabit": "Create Habit",
+    "editHabit": "Edit Habit",
+    "modalDesc": "Build consistency, one day at a time",
+    "habitTitle": "Habit Name",
+    "titlePlaceholder": "e.g. Solat, Ngaji, Exercise",
+    "habitDesc": "Description",
+    "descPlaceholder": "e.g. Solat tepat waktu",
+    "schedule": "Schedule",
+    "everyDay": "Every Day",
+    "specificDays": "Specific Days",
+    "subItems": "Sub-Items",
+    "addItemPlaceholder": "e.g. Subuh, Push-up set 1...",
+    "offDay": "Off-day",
+    "completed": "Completed!",
+    "tapToCheck": "Tap to mark done",
+    "edit": "Edit",
+    "delete": "Delete",
+    "deleteTitle": "Delete Habit",
+    "deleteMessage": "This will permanently delete this habit and all its logs. This action cannot be undone.",
+    "days": {
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat",
+      "sun": "Sun"
+    }
+  },
+  "goals": {
+    "title": "Active Roadmap",
+    "desc": "Track your long-term objectives.",
+    "newBtn": "New Goal",
+    "progress": "Progress",
+    "milestones": "Milestones",
+    "addMilestone": "Add Milestone",
+    "empty": "No goals defined",
+    "emptyDesc": "Create your first long-term goal to start tracking progress.",
+    "noFiltered": "No goals match this filter",
+    "createFirst": "Create Goal",
+    "createGoal": "Create Goal",
+    "editGoal": "Edit Goal",
+    "modalDesc": "Define your long-term objective",
+    "goalTitle": "Goal Title",
+    "titlePlaceholder": "e.g. Learn TypeScript, Run a marathon",
+    "goalDesc": "Description",
+    "descPlaceholder": "Describe what you want to achieve...",
+    "targetDate": "Target Date",
+    "milestonePlaceholder": "e.g. Complete chapter 1...",
+    "edit": "Edit",
+    "delete": "Delete",
+    "deleteTitle": "Delete Goal",
+    "deleteMessage": "This will permanently delete this goal and all its milestones. This action cannot be undone.",
+    "filterAll": "All",
+    "needsSetup": "Needs Setup",
+    "noMilestones": "No Milestones",
+    "overdue": "overdue",
+    "today": "Today",
+    "left": "left",
+    "status": {
+      "in_progress": "In Progress",
+      "completed": "Completed",
+      "paused": "Paused",
+      "overdue": "Overdue",
+      "no_milestones": "No Milestones"
+    }
+  },
+  "journal": {
+    "title": "Daily Journal",
+    "desc": "Reflect on your day and track your emotional health.",
+    "question": "How are you feeling today?",
+    "reflection": "Daily Reflection",
+    "placeholder": "Write about your thoughts...",
+    "saveBtn": "Save Entry",
+    "history": "History",
+    "logs": "Journal Logs",
+    "historyDesc": "You have recorded {count} entries in the last 7 days.",
+    "viewArchive": "View Archive",
+    "empty": "No recent logs",
+    "moods": {
+      "excellent": "Excellent",
+      "great": "Great",
+      "good": "Good",
+      "neutral": "Neutral",
+      "low": "Low"
+    }
+  },
+  "notes": {
+    "title": "Personal Notes",
+    "desc": "Manage your knowledge base.",
+    "search": "Search notes...",
+    "addBtn": "Add Note",
+    "empty": "No notes found",
+    "emptyDesc": "Start capturing your thoughts and ideas today.",
+    "createBtn": "Create Note"
+  },
+  "calendar": {
+    "addBtn": "Add Event",
+    "days": {
+      "sun": "Sun",
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat"
+    }
+  },
+  "aiChat": {
+    "title": "AI Assistant",
+    "placeholder": "Ask something about your finance...",
+    "emptyState": "Hello! I am your personal financial assistant. How can I help you today?",
+    "error": "Sorry, an error occurred while connecting to the AI.",
+    "thinking": "Thinking..."
+  }
+}

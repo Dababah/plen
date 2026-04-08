@@ -1,0 +1,14 @@
+c:\Users\Davin\Documents\Project\Planning\src\app\[lang]\layout.tsx
+c:\Users\Davin\Documents\Project\Planning\src\app\[lang]\page.tsx
+c:\Users\Davin\Documents\Project\Planning\src\app\[lang]\(auth)\layout.tsx
+c:\Users\Davin\Documents\Project\Planning\src\app\[lang]\(auth)\auth\callback\page.tsx
+c:\Users\Davin\Documents\Project\Planning\src\app\[lang]\(auth)\auth\signin-popup\page.tsx
+c:\Users\Davin\Documents\Project\Planning\src\app\[lang]\(auth)\dashboard\page.tsx
+c:\Users\Davin\Documents\Project\Planning\src\app\[lang]\(auth)\forgot-password\page.tsx
+c:\Users\Davin\Documents\Project\Planning\src\app\[lang]\(auth)\login\page.tsx
+c:\Users\Davin\Documents\Project\Planning\src\app\[lang]\(auth)\profile\page.tsx
+c:\Users\Davin\Documents\Project\Planning\src\app\[lang]\(auth)\register\page.tsx
+c:\Users\Davin\Documents\Project\Planning\src\app\[lang]\(auth)\reset-password\page.tsx
+c:\Users\Davin\Documents\Project\Planning\src\app\[lang]\(auth)\verify-otp\page.tsx
+c:\Users\Davin\Documents\Project\Planning\src\app\[lang]\(dashboard)\layout.tsx
+c:\Users\Davin\Documents\Project\Planning\src\app\[lang]\dashboard\page.tsx
