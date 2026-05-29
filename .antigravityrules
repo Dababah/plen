@@ -1,0 +1,42 @@
+You are operating under STRICT SINGLE-AGENT MODE.
+- Execute all user instructions using ONLY the single active model selected by the user (Gemini 3.5 Flash).
+- STRICTLY PROHIBITED from triggering multi-agent consensus, swarm workflows, or parallel execution with other models (e.g., Claude, GPT-OSS).
+- Disable multi-step planning that delegates tasks to other sub-agents.
+- Always provide direct, straight-to-the-point code outputs in a single response to preserve the user's token quota.
+- Do not explain your agentic process; just return the code or answer immediately.
+- Selalu gunakan bahasa Indonesia saat menjelaskan kode.
+- Selalu gunakan sintaks Tailwind CSS dan Native CSS Modern untuk styling.
+
+# NEXT.JS & REACT MODERN DEVELOPMENT RULES
+- Gunakan Next.js App Router (bukan Pages Router). Semua komponen secara default adalah Server Components, kecuali jika membutuhkan interaksi user (`useState`, `useEffect`), maka tambahkan direktif 'use client' di paling atas.
+- Untuk data fetching di Next.js, gunakan async/await langsung di dalam Server Components. DILARANG menggunakan `getServerSideProps` atau `getStaticProps`.
+- Gunakan React Server Actions untuk handling form submission dan mutasi data backend secara langsung tanpa membuat API Routes terpisah jika tidak mendesak.
+
+# DATABASE & ORM DEFINITION (PRISMA & SUPABASE)
+- Jika memodifikasi skema database, selalu gunakan sintaks ORM Prisma modern. Pastikan relasi antar tabel didefinisikan secara eksplisit.
+- Optimalkan query untuk mencegah masalah N+1 dengan menggunakan `include` atau `select` secara efisien.
+- Manfaatkan fitur Row Level Security (RLS) di Supabase saat menulis query yang berhubungan dengan data pengguna untuk menjamin keamanan multi-tenant.
+
+# STATE MANAGEMENT & ASYNC DATA
+- Untuk caching dan async state di sisi client, gunakan library modern seperti TanStack Query (React Query), bukan mengelola global state manual menggunakan Redux/Context untuk data dari API.
+
+# CODE ARCHITECTURE & CLEAN CODE
+- Terapkan arsitektur modular yang bersih. Pisahkan komponen UI global (ke dalam folder `components/ui`) dari logika bisnis spesifik halaman.
+- Selalu gunakan TypeScript dengan tipe data yang ketat (`strict: true`). Hindari penggunaan tipe `any`.
+
+# SECURITY & DATA VALIDATION
+- Selalu gunakan `Zod` (atau library validasi serupa) untuk memvalidasi input dari pengguna sebelum memproses data di dalam React Server Actions atau API Route. JANGAN PERNAH mempercayai data dari klien secara mentah.
+- Hindari hardcoding *secrets* atau *API keys*. Selalu panggil variabel lingkungan melalui `process.env` dan pastikan membedakan antara variabel publik (`NEXT_PUBLIC_`) dan rahasia.
+
+# ERROR HANDLING
+- Terapkan blok `try-catch` secara konsisten, khususnya pada Server Actions dan pemanggilan database.
+- Jangan pernah membiarkan aplikasi *crash* atau *silent fail*. Kembalikan status atau pesan error yang ramah pengguna dari Server Actions untuk dikonsumsi oleh komponen klien (misal: menggunakan toast notification).
+- Log error penting (menggunakan `console.error` atau service logger) dengan menyertakan pesan spesifik, bukan sekadar objek error mentah.
+
+# UI/UX & PERFORMANCE OPTIMIZATION
+- Untuk manipulasi gambar, selalu gunakan komponen bawaan `<Image />` dari `next/image` guna memastikan *lazy loading* dan kompresi WebP otomatis. Hindari tag `<img>` HTML biasa.
+- Selalu berikan respon visual/indikator pemuatan (*loading states*) saat menunggu operasi asinkron (misalnya menggunakan `useFormStatus` dari React atau properti `isPending` dari TanStack Query).
+- Jika ada komponen UI pihak ketiga yang berat, gunakan `next/dynamic` agar tidak memblokir render halaman awal (*initial load*).
+
+# GIT & WORKFLOW (OPSIONAL)
+- Selalu periksa dan pastikan tidak ada komentar `// TODO` atau fungsi `console.log()` yang tidak perlu sebelum memberikan hasil kode akhir untuk *production*.

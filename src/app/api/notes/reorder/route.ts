@@ -15,12 +15,15 @@ export async function PUT(req: Request) {
       return NextResponse.json({ error: "Invalid payload: layouts must be an array" }, { status: 400 });
     }
 
+    // Extract userId after the guard — TS can't narrow through closures
+    const userId = session.user.id as string;
+
     // Execute bulk updates in a transaction
     const updates = layouts.map((item) => 
       prisma.note.update({
         where: { 
           id: String(item.id),
-          userId: session.user.id 
+          userId,
         },
         data: {
           positionX: item.x,
