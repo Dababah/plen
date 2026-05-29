@@ -30,7 +30,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         session.user.id = token.sub;
         (session.user as any).username = token.username;
         if (token.name) session.user.name = token.name;
-        if (token.image) session.user.image = token.image;
+        if (token.image) session.user.image = token.image as string;
       }
       return session;
     },
