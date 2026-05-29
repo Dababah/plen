@@ -15,6 +15,7 @@ interface KanbanColumnProps {
   dict: any;
   onAddTask: (status: string) => void;
   onTaskClick: (task: Task) => void;
+  onMarkDone?: (task: Task) => void;
   colorClass: string;
 }
 
@@ -25,6 +26,7 @@ const KanbanColumn = ({
   dict, 
   onAddTask, 
   onTaskClick,
+  onMarkDone,
   colorClass 
 }: KanbanColumnProps) => {
   return (
@@ -69,6 +71,7 @@ const KanbanColumn = ({
                     index={index} 
                     dict={dict} 
                     onClick={onTaskClick}
+                    onMarkDone={onMarkDone}
                   />
                 ))
               )}

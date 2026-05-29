@@ -19,9 +19,10 @@ interface TaskCardProps {
   index: number;
   dict: any;
   onClick: (task: Task) => void;
+  onMarkDone?: (task: Task) => void;
 }
 
-const TaskCard = ({ task, index, dict, onClick }: TaskCardProps) => {
+const TaskCard = ({ task, index, dict, onClick, onMarkDone }: TaskCardProps) => {
   const getDeadlineInfo = () => {
     if (!task.dueDate) return null;
     const date = new Date(task.dueDate);
@@ -85,6 +86,17 @@ const TaskCard = ({ task, index, dict, onClick }: TaskCardProps) => {
                task.priority === 'medium' ? dict.tasks.priority.medium : 
                dict.tasks.priority.low}
             </div>
+            {task.status !== 'done' && task.status !== 'cancelled' && (
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  onMarkDone?.(task);
+                }}
+                className="ml-2 px-2 py-1 text-[9px] font-bold text-white bg-zinc-900 rounded hover:bg-zinc-800 active:scale-95 transition-all"
+              >
+                Tandai Selesai
+              </button>
+            )}
             <button className="p-1 text-slate-300 hover:text-zinc-900 hover:bg-slate-50 rounded-lg transition-all">
               <MoreVertical size={14} />
             </button>
